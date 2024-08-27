@@ -1,7 +1,365 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <title>Insurance</title>
+
+    <!-- Loading Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Loading FontAwesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer">
+	<!-- Loading Bootstrap Icons-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> 
+
+	<!-- Style.css -->
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+    <div class="container-fluid p-0">
+        <header>
+            <div class="py-4 bg-white">
+                <div class="container d-flex align-items-center">
+                    <a href="index.html" class="d-flex align-items-center text-decoration-none">
+                        <img src="images/logo.png" alt="Company Name" class="logo me-3">
+                        <div>
+                            <h1 class="mb-0">Company Name</h1>
+                            <small class="d-block">Taline goes here</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+			<nav class="navbar navbar-dark bg-dark navbar-expand-lg py-2">
+				<div class="container">
+					<button class="navbar-toggler my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+						  	<li class="nav-item py-1"><a class="nav-link active" href="#" aria-current="page">Thuis</a></li>
+						  	<li class="nav-item py-1"><a class="nav-link" href="#">Over ons</a></li>
+							<li class="nav-item py-1"><a class="nav-link" href="#">Blog</a></li>
+							<li class="nav-item py-1"><a class="nav-link" href="#">Contacten</a></li>
+						</ul>
+					  </div>
+					</nav>
+				</div>
+			</nav>
+        </header> <!-- header -->
+
+		<div class="hero py-5">
+            <div class="container justify-content-left">
+				<div class="col-md-3 col-lg-3 p-4 bg-white rounded">
+					<h3 class="mb-5 text-dark">Ben je nog steeds bang om te investeren?</h3>
+					<p class="mb-5 text-dark">Investeren kan intimiderend zijn vanwege de onzekerheid van de financiële markten. Met het juiste begrip en de juiste opleiding kan beleggen echter een krachtig middel zijn om financiële doelen te bereiken.</p>
+					<a href="#" class="btn btn-primary">Abonneren</a>
+                </div>
+            </div>
+        </div> <!-- .hero -->
+
+		<main class="bg-light">
+            <div class="bg-white py-5">
+                <div class="container text-center">
+                    <h2 class="display-4 mt-5 text-dark">Wat bieden we aan?</h2>
+                    <p class="fs-4 mb-5 mx-5 text-secondary">We willen je een gemakkelijke en innovatieve manier bieden om je beleggingen te beheren, met toegang tot een breed scala aan financiële tools en middelen om effectief te beleggen.</p>
+                    <div class="row">
+                        <div class="col-md-3 mb-4">
+                            <div class="text-center mb-4">
+                                <span class="bi bi-list-stars mb-3 text-primary fs-1"></span>
+                                <h5 class="text-primary">Breed scala aan beleggingsmogelijkheden</h5>
+                                <p class="text-secondary">Ons platform biedt toegang tot verschillende activaklassen, waaronder aandelen, obligaties, fondsen en andere financiële instrumenten.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="text-center mb-4">
+                                <span class="bi bi-cash-coin mb-3 text-primary fs-1"></span>
+                                <h5 class="text-primary">Innovatieve<br>beleggingstools</h5>
+                                <p class="text-secondary">We bieden innovatieve technologieën en tools, zoals robo-advisers en geautomatiseerde portefeuilles, om het beleggingsproces voor onze klanten te vereenvoudigen.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="text-center mb-4">
+                                <span class="bi bi-eyeglasses mb-3 text-primary fs-1"></span>
+                                <h5 class="text-primary">Educatie<br>en analyse</h5>
+                                <p class="text-secondary">Ons platform biedt educatieve hulpmiddelen, analytische tools en regelmatige marktupdates om onze klanten te helpen weloverwogen beleggingsbeslissingen te nemen.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="text-center mb-4">
+                                <span class="bi bi-hand-index-thumb mb-3 text-primary fs-1"></span>
+                                <h5 class="text-primary">Persoonlijke<br>benadering</h5>
+                                <p class="text-secondary">We streven naar een persoonlijke beleggingservaring die is afgestemd op de unieke doelen en behoeften van elke klant, met de ondersteuning van ervaren financiële adviseurs en analisten.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+			<div class="bg-light py-5">
+                <div class="container">
+                    <h2 class="display-4 mb-5 text-center text-dark">Investeren is makkelijker bij ons!</h2>
+                    <div class="row">
+                        <div class="col-md-3 mb-4">
+                            <div class="offer caption-top">
+                                <img src="images/6.jpg" class="img-fluid" alt="offer 1">
+                                <div class="caption">
+                                    <h4 class="offer-title fs-5">Webinars</h4>
+                                    <small>Kijk even terwijl je op de bank zit!</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-4 mb-4">
+                                    <div class="offer caption-bottom">
+                                        <img src="images/8.jpg" class="img-fluid" alt="offer 2">
+                                        <div class="caption">
+                                            <h4 class="offer-title fs-5">Masterclasses</h4>
+                                            <small>Eenmaal per week</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 mb-4">
+                                    <div class="offer caption-bottom">
+                                        <img src="images/7.jpg" class="img-fluid" alt="offer 3">
+                                        <div class="caption">
+                                            <h4 class="offer-title fs-5">Vergadering</h4>
+                                            <small>Vind gelijkgestemden!</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4 mb-4">
+                                    <div class="offer caption-bottom">
+                                        <img src="images/9.jpg" class="img-fluid" alt="offer 4">
+                                        <div class="caption">
+                                            <h4 class="offer-title fs-5">Laatste nieuws</h4>
+                                            <small>Dagelijks lezen!</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="offer caption-bottom">
+                                        <img src="images/10.jpg" class="img-fluid" alt="offer 5">
+                                        <div class="caption">
+                                            <h4 class="offer-title fs-5">Toegang tot exclusives</h4>
+                                            <small>We hebben het beste verzameld!</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="offer caption-bottom">
+                                        <img src="images/11.jpg" class="img-fluid" alt="offer 6">
+                                        <div class="caption">
+                                            <h4 class="offer-title fs-5">Marktupdates</h4>
+                                            <small>We doen het regelmatig!</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+			<div class="bg-white py-5 blog">
+                <div class="container">
+                    <h2 class="display-4 text-center mb-5 text-dark">Blog</h2>
+                    <div class="row">
+                        <div class="col-md-4 mb-4 px-2">
+							<div class="p-0 shadow rounded">
+								<figure class="mb-0">
+									<img src="images/13.jpg" class="img-fluid rounded-top" alt="news 1">
+								</figure>
+								<div class="date py-1 px-3 bg-light text-secondary fs-6">
+									<span class="bi bi-calendar3 text-primary"></span>
+									<small>&nbsp;03/09/2024</small>
+								</div>
+								<h3 class="text-dark pt-3 fs-5 px-3">Hoe te beleggen in aandelen:  Advies voor beginnende beleggers</h3>
+								<p class="px-3 pb-3"><a href="blog.html" class="text-decoration-none">Beleggen in aandelen kan een opwindende en lucratieve ervaring zijn, maar voor beginnende beleggers kan het ingewikkeld en…</a></p>
+							</div>
+                        </div>
+                        <div class="col-md-4 mb-4 px-2">
+                            <div class="p-0 shadow rounded">
+                                <figure class="mb-0">
+									<img src="images/14.jpg" class="img-fluid rounded-top" alt="news 2">
+								</figure>
+                                <div class="date py-1 px-3 bg-light text-secondary fs-6">
+									<span class="bi bi-calendar3 m-1 text-primary"></span>
+									<small>&nbsp;03/09/2024</small>
+								</div>
+                                <h2 class="text-dark pt-3 fs-5 px-3">Top 5 veelbelovende industrieën voor investeringen in 2024</h2>
+                                <p class="px-3 pb-3"><a href="blog.html" class="text-decoration-none">Bij het selecteren van veelbelovende sectoren voor investeringen in 2024 moet je rekening houden met de huidige trends en marktvooruitzichten. In dit…</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4 px-2">
+                            <div class="p-0 shadow rounded">
+                                <figure class="mb-0">
+									<img src="images/15.jpg" class="img-fluid rounded-top" alt="news 3">
+								</figure>
+                                <div class="date p-1 px-3 bg-light text-secondary fs-6">
+									<span class="bi bi-calendar3 m-1 text-primary"></span>
+									<small>&nbsp;03/09/2024</small>
+								</div>
+                                <h2 class="text-dark pt-3 fs-5 px-3">Investeren in vastgoed: voordelen, risico's en tips</h2>
+                                <p class="px-3 pb-3"><a href="blog.html" class="text-decoration-none">Investeren in vastgoed is niet alleen een kans om geld te verdienen, maar ook een manier om op lange termijn een stabiele en passieve bron van…</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- .blog -->
+
+            <div class="alert alert-primary py-5">
+                <div class="container">
+                    <blockquote class="blockquote text-center">
+                        <p class="mb-0">Ons platform onderscheidt zich door een breed scala aan beleggingsopties te bieden, zodat gebruikers de instrumenten kunnen kiezen die het beste bij hen passen. We bieden ook toegang tot educatief materiaal en analytische hulpmiddelen om gebruikers te helpen weloverwogen beslissingen te nemen. Het belang van financiële kennis bij beleggen is van onschatbare waarde, dus we ondersteunen de educatie van onze gebruikers actief en bieden informatie over belangrijke financiële concepten.</p>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="bg-light py-5">
+				<div class="container">
+	                <div class="row">
+						<div class="col-md-3 mb-4 d-lg-block d-none">
+                        	<div class="mx-auto">
+                            	<img src="images/12.jpg" class="img-fluid" alt="subscribe">
+                        	</div>
+                    	</div>
+
+                    	<div class="col-lg-9 col-md-12">
+							<div class="col-lg-9 mb-5">
+								<h2 class="display-4 text-dark text-left mb-3">Abonneer je op ons!</h2>
+								<p class="text-left text-secondary mb-5 fs-6">Blijf op de hoogte van het laatste nieuws en educatief materiaal!</p>
+							</div>
+                        	<div class="col-lg-9">
+								<form id="subscribe-form" class="need-validations" novalidate>
+									<div class="col-lg-9 mb-3">
+										<input id="name" type="text" class="form-control" placeholder="Naam" required>
+										<div class="invalid-feedback">
+											Vul een naam in.
+										</div>						
+									</div>
+									<div class="col-lg-9 mb-3">
+										<input id="email" type="email" class="form-control" placeholder="Email" required>
+										<div class="invalid-feedback">
+											Vul een geldig emailadres in.
+										</div>
+									</div>
+									<button class="btn btn-primary col-lg-9" type="button" onclick="subscribe()">Abonneren</button>
+									
+								</form>
+								<div id="confirm-msg" class="col-lg-9 mt-3" style="display: none;">
+									<div class="alert alert-success alert-dismissible fade show" role="alert">
+										Bedankt voor het inschrijven
+										<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+									</div>
+								</div>
+								<div id="error-msg" class="col-lg-9 mt-3" style="display: none;">
+									<div class="alert alert-danger alert-dismissible fade show" role="alert">
+										Er is een fout opgetreden. Controleer je invoer.
+										<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+									</div>
+								</div>
+                        	</div>
+                    	</div>
+                	</div>
+				</div>
+            </div> <!-- .container -->
+
+            <div class="container-fluid p-0 border-bottom">
+                <div class="map-address">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1259.5303264080594!2d4.427497013491664!3d50.84856109559483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3dca13a495829%3A0x94e4e6e60837a2ef!2zQ2hhdS4gZGUgUm9vZGViZWVrIDIwNiwgMTIwMCBXb2x1d2UtU2FpbnQtTGFtYmVydCwg0JHQtdC70YzQs9C40Y8!5e0!3m2!1sru!2saz!4v1724227190119!5m2!1sru!2saz" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer bg-white text-dark pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 text-center d-flex align-items-center">
+                        <div class="mx-auto">
+                            <img src="images/logo.png" alt="Company Logo" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <h3 class="text-dark">Contactgegevens:</h3>
+                        <ul class="list-unstyled">
+                            <li>Company name</li>
+                            <li>Chau.&nbsp;de&nbsp;Roodebeek&nbsp;206, 1200&nbsp;Bruxelles,&nbsp;België</li>
+                            <li><a href="tel:+3227726363" class="text-decoration-none text-dark">Phone: +3227726363</a></li>
+                            <li><a href="mailto:support@companyname.com" class="text-decoration-none text-dark">support@companyname.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5">
+                        <h3 class="text-dark">Handige links:</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none text-dark">Gegevensbescherming Voorschriften</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Algemene voorwaarden</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Contact</a></li>
+                            <li><a href="#" class="text-decoration-none text-dark">Cookie</a></li>
+                        </ul>
+                    </div>
+                </div>
+			</div>
+			<div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="mb-3">
+                            <a href="#" class="social-icon fs-2 me-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon fs-2 me-2"><i class="fab fa-x-twitter"></i></a>
+                            <a href="#" class="social-icon fs-2 me-2"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="#" class="social-icon fs-2"><i class='fab fa-pinterest-p'></i></a>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid bg-secondary ">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 py-3 text-center">
+							<div class="nav justify-content-center d-none d-lg-flex">
+								<a href="#" class="nav-link">Thuis</a>
+								<a href="#" class="nav-link">Over ons</a>
+								<a href="#" class="nav-link">Blog</a>
+								<a href="#" class="nav-link">Contacten</a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 pb-4 text-center text-dark">
+							Copyright 2024 Company name. All rights reserved.
+						</div>
+					</div>
+				</div>
+            </div>
+        </footer>
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <script>
+			function subscribe() {
+				const form = document.getElementById('subscribe-form');
+				const confirmMsg = document.getElementById('confirm-msg');
+				const errorMsg = document.getElementById('error-msg');
+		
+				if (form.checkValidity()) {
+					confirmMsg.removeAttribute("style", "display: none");
+					form.setAttribute("style", "display: none");
+				} else {
+					errorMsg.removeAttribute("style", "display: none");
+					form.classList.add('was-validated');
+				}
+			}
+		</script>
+
+    </body>
 </html>
