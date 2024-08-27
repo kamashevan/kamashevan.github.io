@@ -1,0 +1,39 @@
+@media screen and (min-width: 992px) {
+  .navbar-nav a, nav a, .nav a {
+    padding: 0 10px;
+    color: white;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;}
+  }
+.hero {
+        background: url('images/1.jpg') no-repeat center center;
+        background-size: cover;}
+.offer {
+        position: relative;
+        overflow: hidden;}
+    .offer .caption {
+        position: absolute;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        color: white;
+        width: 100%;
+        padding: 20px;}
+    .offer.caption-top .caption {
+        top: 0;}
+.offer.caption-bottom .caption {
+  bottom: 0;}
+    .offer img {
+        width: 100%;
+        height: auto;}
+.blog a:after {
+  content: " ";
+    display: inline-block;
+    margin-left: 10px;
+    width: 10px;
+    height: 7px;
+    background: url(images/arrow-blue.png);}
+.blog a, a .fab {
+  color: #6c757d;}
+.blog a:hover, a .fab:hover {
+  color: #0d6efd;}
